@@ -1,0 +1,10 @@
+#python
+/venv
+__pycache__/
+
+
+# IDE
+.idea
+
+#database
+disciplines-manager
