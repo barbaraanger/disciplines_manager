@@ -64,6 +64,8 @@ def main():
             approved_per = calculate_percentage(len(approved_disciplines), total_disciplines)
             pending_per = calculate_percentage(len(pending_disciplines), total_disciplines)
             print(f'Percentage of approved disciplines is: {approved_per} and pending is: {pending_per}')
+        elif choice == '8':
+            return
         else:
             print("Invalid choice. Please try again.")
 
