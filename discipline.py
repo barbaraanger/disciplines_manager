@@ -16,4 +16,4 @@ class Discipline(Base):
     semester = Column(Integer)
 
     def __repr__(self):
-        return f"Discipline ->  {self.name}, Status: {self.status.value}, semester: {self.semester}"
+        return f"ID {self.id}: {self.name}, Status: {self.status.value}, semester: {self.semester}"
